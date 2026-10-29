@@ -1,0 +1,17 @@
+{
+  "name": "@brandzivio/jdb-wallet-crypto",
+  "version": "0.1.0",
+  "description": "Small helper to decode and decrypt the x parameter (Base64 URL, AES-CBC-128) that JDB Gaming's seamless wallet sends to an operator endpoint.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": ["index.js", "index.d.ts", "README.md", "LICENSE"],
+  "scripts": { "test": "node --test" },
+  "keywords": ["jdb", "seamless-wallet", "aes-cbc", "igaming", "casino-api"],
+  "homepage": "https://brandzivio.com/solutions/jdb-game-api-integration-services",
+  "repository": { "type": "git", "url": "git+https://github.com/brandzivio/jdb-seamless-wallet-reference.git", "directory": "npm" },
+  "bugs": { "url": "https://github.com/brandzivio/jdb-seamless-wallet-reference/issues" },
+  "author": "Brandzivio <https://brandzivio.com>",
+  "license": "MIT",
+  "engines": { "node": ">=16" },
+  "publishConfig": { "access": "public" }
+}
